@@ -8,7 +8,7 @@ const PageNotFound = () => {
 		<Layout title='Page Not Found'>
 			<div className={styles.error}>
 				<h1>
-					<FaExclamationTriangle />
+					<FaExclamationTriangle className={styles.icon} />
 					404
 				</h1>
 				<h4>Sorry, the page you requested was not found</h4>
